@@ -5,7 +5,7 @@
         long int arr1[3][3],arr2[3][3],arr_sum[3][3];
        
         //accept two 3*3 arrays;
-        printf("enter array1:\n");
+        printf("enter matrix-1:\n");
               
         for(int i=0;i<3;i++){
            
@@ -16,7 +16,7 @@
             
            
         }
-          printf("enter array2:\n");
+          printf("enter matrix-2:\n");
         for(int i=0;i<3;i++){
            
             for(int j=0;j<3;j++){
@@ -32,7 +32,7 @@
             }
             
         }
-          printf("output:\n");
+          printf("Sum of two matrices is:\n");
          for(int i=0;i<3;i++){
            
             for(int j=0;j<3;j++){
