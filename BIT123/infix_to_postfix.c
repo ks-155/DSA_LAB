@@ -57,10 +57,10 @@ void infixToPostfix(char* exp) {
             stack[++top] = c;
         }
     }
-                                                                                6-->-
-    // Pop remaining operators                                                  4-->/
-    while (top != -1) {                                                         7-->*
-        result[j++] = stack[top--];                                             8-->+
+                                                                               
+    // Pop remaining operators                                                 
+    while (top != -1) {                                                        
+        result[j++] = stack[top--];                                             
     }
 
     result[j] = '\0';
